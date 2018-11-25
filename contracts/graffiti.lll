@@ -35,7 +35,7 @@
   ;; ==========================================================================
   ;; CODE
 
-  ;; TODO: can be single-shot! cheaper than deploy-then-destroy
+  ;; TODO: try as transient program! perhaps cheaper than deploy-and-destroy?..
   (returnlll
    (seq
      unpayable
